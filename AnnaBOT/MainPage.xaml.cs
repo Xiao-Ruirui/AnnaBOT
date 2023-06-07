@@ -104,9 +104,9 @@ public partial class MainPage : ContentPage
     /// </summary>
     private async Task AutoRefresh()
     {
-        RefreashData();
         if (this.eventEndCountdownS.IsToggled)
         {
+            RefreashData();
             DateTime theTime = DateTime.Now;
             if (theTime.Minute < 30)
             {
