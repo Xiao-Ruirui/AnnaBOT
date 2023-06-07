@@ -37,7 +37,7 @@
 		<GenerateTestArtifacts>True</GenerateTestArtifacts>
 		<AppInstallerUri>C:\Program Files</AppInstallerUri>
 		<HoursBetweenUpdateChecks>0</HoursBetweenUpdateChecks>
-		<PackageCertificateThumbprint>1E048451473A4F87ADBADA7B2D0852AC68CA7D4F</PackageCertificateThumbprint>
+		<PackageCertificateThumbprint>A58001C23B0DB6B3B2EF64439863DC1B76D9AA5E</PackageCertificateThumbprint>
 	</PropertyGroup>
 
 	<ItemGroup>
