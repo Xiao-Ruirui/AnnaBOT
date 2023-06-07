@@ -10,8 +10,8 @@
 ## 应用安装方法
 <font color=#FFBF00>**注意：目前只支持Win10以上的Windows操作系统。**</font>
 1. 点击Github右侧的[release](https://github.com/Xiao-Ruirui/AnnaBOT/releases)
-2. 点击[AnnaBOT_1.0.0.0_x64.msix](https://github.com/Xiao-Ruirui/AnnaBOT/releases/download/Release/AnnaBOT_1.0.0.0_x64.msix)，下载到电脑中
-3. 启动AnnaBOT_1.0.0.0_x64.msix，按照提示顺序安装
+2. 点击AnnaBOT_1.0.1.0_x64.msix，下载到电脑中
+3. 启动AnnaBOT_1.0.1.0_x64.msix，按照提示顺序安装
 
 ## 主要功能演示
 ![QQ截图20230607101408](https://github.com/Xiao-Ruirui/AnnaBOT/assets/120307913/28e22606-17c4-4ae2-994a-bad93875cb3f)
