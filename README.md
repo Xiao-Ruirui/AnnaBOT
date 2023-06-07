@@ -7,11 +7,23 @@
 
 应用也提供活动倒计时功能，通过倒计时可以准确判断还有多长时间活动将会结束。
 
-## 应用安装方法
+## 应用安装方法和卸载方法
 <font color=#FFBF00>**注意：目前只支持Win10以上的Windows操作系统。**</font>
 1. 点击Github右侧的[release](https://github.com/Xiao-Ruirui/AnnaBOT/releases)
-2. 点击AnnaBOT_1.0.1.0_x64.msix，下载到电脑中
-3. 启动AnnaBOT_1.0.1.0_x64.msix，按照提示顺序安装
+2. 点击AnnaBOT_1.0.1.0_Test.zip，下载到电脑中
+3. 解压到文件夹中，打开AnnaBOT_1.0.1.0_Test文件夹
+4. 打开AnnaBOT_1.0.0.0_x64.cer
+5. 点击安装证书
+6. 存储位置选择本地计算机，下一页
+7. 选择将所有证书都放到下列存储，点击浏览，选择受信任的根证书颁发机构，确定，下一页
+8. 点击完成
+9. 再次打开AnnaBOT_1.0.1.0_Test文件夹
+10. 打开AnnaBOT_1.0.1.0_x64.msix
+11. 按提示步骤安装
+
+<font color=#FFBF00>**卸载方法**</font>
+
+1.在控制面板或开始菜单中右键Anna Bot，选择卸载
 
 ## 主要功能演示
 ![QQ截图20230607101408](https://github.com/Xiao-Ruirui/AnnaBOT/assets/120307913/28e22606-17c4-4ae2-994a-bad93875cb3f)
