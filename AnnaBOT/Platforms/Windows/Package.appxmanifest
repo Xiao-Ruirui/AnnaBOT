@@ -6,7 +6,7 @@
   xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities"
   IgnorableNamespaces="uap rescap">
 
-  <Identity Name="Anna-Bot" Publisher="CN=Xiao-Ruirui" Version="1.0.0.0" />
+  <Identity Name="Anna-Bot" Publisher="CN=Xiao-Ruirui" Version="1.0.1.0" />
 
   <mp:PhoneIdentity PhoneProductId="5E3F82CB-96A6-451A-BDF1-DD4EA89C6FD9" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
