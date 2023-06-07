@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AnnaBOT.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="8"
+            Padding="30,15"
+            VerticalOptions="Center">
+
+            <Label
+                x:Name="eventName"
+                Text="&lt;b&gt;请点击“刷新”按钮&lt;/b&gt;"
+                TextType="Html"
+                FontSize="20"
+                HorizontalOptions="Center"/>
+            
+            <Image
+                x:Name="eventImage"
+                Source="please_click_refresh_button.jpg"
+                HeightRequest="240"
+                HorizontalOptions="Center" />
+
+            <Label
+                x:Name="eventAt"
+                Text="&lt;b&gt;活动开启时间：&lt;/b&gt;暂无"
+                TextType="Html"
+                FontSize="17"
+                HorizontalOptions="Start" />
+
+            <Label
+                x:Name="eventBoostBeginAt"
+                Text="&lt;b&gt;折返开启时间：&lt;/b&gt;暂无"
+                TextType="Html"
+                FontSize="17"
+                HorizontalOptions="Start" />
+
+            <Label
+                x:Name="getDatasTime"
+                Text="&lt;b&gt;上次数据获取时间：&lt;/b&gt;暂无"
+                TextType="Html"
+                FontSize="17"
+                HorizontalOptions="Start" />
+            
+            
+            <HorizontalStackLayout>
+                <Label
+                x:Name="refreshTime"
+                Text="&lt;b&gt;距离数据刷新还有：&lt;/b&gt;00:23:56"
+                TextType="Html"
+                FontSize="17"
+                HorizontalOptions="Start" />
+
+                <Switch
+                x:Name="refreshTimeCountdownS"
+                Toggled="OnRefreshCountdownToggled"
+                IsToggled="True"
+                HorizontalOptions="Center" TranslationX="15" TranslationY="-7.5"
+                ToolTipProperties.Text="是否开启自动刷新，自动刷新会在半点和整点时刷新"/>
+            </HorizontalStackLayout>
+        
+        
+            <HorizontalStackLayout TranslationY="-18">
+                <Label
+                x:Name="endTime"
+                Text="&lt;b&gt;距离活动结束还有：&lt;/b&gt;72:23:56"
+                TextType="Html"
+                FontSize="17"
+                HorizontalOptions="Start" />
+
+            <Switch 
+                x:Name="eventEndCountdownS"
+                Toggled="OnEventEndCountdownToggled"
+                IsToggled="true"
+                HorizontalOptions="Center" TranslationX="15" TranslationY="-7.5"
+                ToolTipProperties.Text="是否开启活动倒计时"/>
+            </HorizontalStackLayout>
+
+        
+            <HorizontalStackLayout Spacing="60" TranslationY="-36">
+            <Label
+                x:Name="rank100Score"
+                Text="&lt;b&gt;100位pt：&lt;/b&gt;0"
+                TextType="Html"
+                FontSize="17"
+                HorizontalOptions="Start" TranslationY="0" />
+
+            <Label
+                x:Name="rank2500Score"
+                Text="&lt;b&gt;2500位pt：&lt;/b&gt;0"
+                TextType="Html"
+                FontSize="17"
+                HorizontalOptions="Start" />
+            </HorizontalStackLayout>
+        
+        
+            <Button
+                x:Name="CounterBtn"
+                Text="刷新"
+                Clicked="OnRefreshClicked"
+                ToolTipProperties.Text="温馨提示：刷新频率不要太快哟"
+                HorizontalOptions="Center" />
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
